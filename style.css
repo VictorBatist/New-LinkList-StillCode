@@ -34,7 +34,7 @@ a{
 }
 
 .degrade{
-    background: linear-gradient(to right, rgb(175, 174, 174), rgb(77, 77, 77));
+    background: linear-gradient(to right, rgb(105, 105, 105), rgb(46, 46, 46));
 }
 
 /* Estilizando o header */
@@ -83,3 +83,19 @@ a.link button:hover{
     transform: scale(1.05);
 }
 
+/* Estilizando o footer */
+
+footer{
+    text-align: center;
+    margin-top: 90px;
+}
+
+footer p{
+    color: gray;
+    margin-top: 10px;
+}
+
+footer i{
+    color: gray;
+    font-size: 20px;
+}
