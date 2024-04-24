@@ -1,0 +1,106 @@
+/* Estilo Geral */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    height: 100vh;
+    font-size: 14px;
+}
+
+body{
+    background-color: black;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    max-width: 550px;
+    margin: 0  auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.degrade{
+    background: linear-gradient(to right, rgb(105, 105, 105), rgb(46, 46, 46));
+}
+
+/* Estilizando o header */
+
+header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header img{
+    margin-bottom: 20px;
+    transition: .5s;
+}
+
+header img:hover{
+    transform: scale(1.1);
+}
+
+header h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Estilizando os botoes */
+
+section.bnt-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+a.link button{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: white;
+    transition: .5s;
+}
+
+a.link i{
+    font-size: 1.5em;
+}
+
+a.link button:hover{
+    transform: scale(1.05);
+}
+
+/* Estilizando o footer */
+
+footer{
+    text-align: center;
+    margin-top: 90px;
+}
+
+footer p{
+    color: gray;
+    margin-top: 10px;
+}
+
+footer i{
+    color: gray;
+    font-size: 20px;
+}
