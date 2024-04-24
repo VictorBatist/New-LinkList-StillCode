@@ -1,0 +1,85 @@
+/* Estilo Geral */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    height: 100vh;
+    font-size: 14px;
+}
+
+body{
+    background-color: black;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    max-width: 550px;
+    margin: 0  auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.degrade{
+    background: linear-gradient(to right, rgb(175, 174, 174), rgb(77, 77, 77));
+}
+
+/* Estilizando o header */
+
+header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header img{
+    margin-bottom: 20px;
+}
+
+header h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Estilizando os botoes */
+
+section.bnt-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+a.link button{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: white;
+    transition: .5s;
+}
+
+a.link i{
+    font-size: 1.5em;
+}
+
+a.link button:hover{
+    transform: scale(1.05);
+}
+
