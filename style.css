@@ -46,6 +46,11 @@ header{
 
 header img{
     margin-bottom: 20px;
+    transition: .5s;
+}
+
+header img:hover{
+    transform: scale(1.1);
 }
 
 header h1{
